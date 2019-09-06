@@ -12,6 +12,11 @@
     <title>Authentification</title>
   </head>
   <body>
-  <h2>hello</h2>
+  <h2>Connexion</h2>
+  <s:form method="POST" action="connexion">
+    <s:textfield name="login" id="login" label="identifiant" labelposition="left"/>
+    <s:textfield name="pswd" id="pswd" label="mot de passe" labelposition="left"/>
+    <s:submit value="Connexion"/>
+  </s:form>
   </body>
 </html>
